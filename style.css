@@ -1,0 +1,76 @@
+*{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+body{
+    background-image: url(contenido/fondo3.jpg);
+    background-size: cover; /*para que abarque el 100% de la pagina*/
+}
+header{
+    padding: 5px;
+    background-color: rgba(41, 52, 197, 0.568);
+}
+header a{
+    background-color: darkslategrey;
+    padding: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#contenedor p{
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    margin: 30px 50px;
+}
+div.caja{
+    font-size: 20px;
+    margin: 18px auto;
+    padding: 30px;
+}
+div.caja p{
+    font-size: 25px;
+    font-style: oblique;
+}
+div.caja img.izquierda{
+    float: left;
+    margin-right: 30px;
+}
+div.caja img.derecha{
+    margin-right: 30px;
+    float: right;
+}
+div.caja video.izquierda{
+    float: left;
+    margin-right: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(41, 52, 197, 0.568);
+}
+form input{
+    margin: 10px;
+    color: black;
+}
+button{
+    color: black;
+}
+table{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+th, td{
+    width: 25%;
+    padding: 10px;
+    vertical-align: top;
+    border: 2px solid rgb(93, 181, 184);
+}
