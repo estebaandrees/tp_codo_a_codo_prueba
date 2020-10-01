@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css">
+    <title>La Cocina de Juan</title>
+    <script src="https://kit.fontawesome.com/ac98bd7edd.js">
+        crossorigin="anonymous"</script>
+</head>
+<body>
+    <header class="titulo">
+        <nav>
+            <br>
+            <a href="index.html">Home</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="registro.html">Registrese</a>
+            <a href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1 class="alinear">La Cocina de...</h1>
+    </header>
+    <main>
+        <form action="show_data.html">
+            <h4>Formulario de Registro</h4><br>
+            <label for="Noombre">Nombre:</label>
+            <input type="text" name="Nombre" size="20" placeholder="Ingrese su nombre..."><br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" size="20" placeholder="Ingrese su apellido..."><br>
+            <label for="Direccion">Direccion:</label>
+            <input type="text" name="Direccion" size="20" placeholder="Ingrese su direccion..."><br>
+            <label for="Ciudad">Ciudad:</label>
+            <input type="text" name="Ciudad" size="20" placeholder="C.A.B.A."><br>
+            <label for="CP">Codigo Postal:</label>
+            <input type="text" name="CP" size="20" placeholder="Ingrese su codigo postal..."><br>
+            <label for="FechaDeNacimiento">Fecha de Nacimiento (dd/mm/aaaa):</label>
+            <input type="date" name="FechaDeNacimiento"><br>
+            <label for="Genero">Genero:</label>
+            <input type="radio" name="Genero" value="Hombre">Hombre
+            <input type="radio" name="Genero" value="Mujer">Mujer
+            <input type="radio" name="Genero" value="Otro">Otro
+            <br>
+            <label for="Conocimientos">Conocimientos Previos:</label><br>
+            <input type="checkbox" name="Conocimientos" value="HTML">HTML
+            <input type="checkbox" name="Conocimientos" value="CSS">CSS
+            <input type="checkbox" name="Conocimientos" value="Bootstrap">Bootstrap
+            <input type="checkbox" name="Conocimientos" value="Javascript">Javascript
+            <input type="checkbox" name="Conocimientos" value="Typescript">Typescript
+            <input type="checkbox" name="Conocimientos" value="Angular">Angular
+            <input type="checkbox" name="Conocimientos" value="Base de Datos">Base de Datos
+            <input type="checkbox" name="Conocimientos" value="Python">Python
+            <input type="checkbox" name="Conocimientos" value="Django">Django
+            <br>
+            <input type="submit" class="boton">
+        </form>
+    </main>
+    <footer class="titulo alinear">
+        <br>
+        <div class="iconos">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook fa-lg"></i></a>
+            <a href="https://twitter.com/?lang=es" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i></a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram fa-lg"></i></a>
+            <a href="https://ar.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin-in fa-lg"></i></a>
+        </div>
+        <p class="alinear">Derechos Reservados @2020</p><br>
+    </footer>
+</body>
+</html>

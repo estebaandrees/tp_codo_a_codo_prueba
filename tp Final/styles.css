@@ -1,0 +1,220 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(154, 192, 190);
+}
+header{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    background-color: rgb(22, 131, 0);
+}
+header nav{
+    background-color: rgb(41, 39, 34);
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+header nav a{
+    text-align: center;
+    color: blanchedalmond;
+    border: solid 1px rgb(212, 212, 212);
+    border-collapse: collapse;
+    padding: 2%;
+    width: 22%;
+    text-decoration: none;
+}
+header nav a:hover{
+    transition: 0.5s linear;
+    color: rgb(46, 43, 43);
+    background-color: rgb(199, 193, 175);
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5%;
+    width: 90%;
+}
+main div.mapas{
+    justify-content: center;
+}
+main div.mapas iframe{
+    width: 40%;
+}
+main img{
+    justify-content: center;
+    width: 50%;
+}
+.caja1{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.subtitulo{
+    margin: 2%;
+    font-size: 1em;
+    font-weight: 700;
+}
+.caja1 img{
+    width: 40%;
+    margin: auto 5%;
+}
+.caja1 p{
+    width: 50%;
+    font-size: 1em;
+}
+.caja2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    margin: 2% auto;
+}
+.caja2_a, .caja2_b{
+    width: 40%;
+}
+.caja2 .caja2_a table{
+    border-collapse: collapse;
+    width: 70%;
+}
+td, th{
+    border: black solid;
+    text-align: center;
+    font-size: 1em;
+}
+h1{
+    margin: 3%;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 3em;
+}
+h2{
+    font-size: 1.8em;
+    margin: 3%;
+}
+h4{ font-size: 1em;}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(22, 131, 0);
+}
+footer p{
+    font-size: 1em;
+}
+.iconos a i{
+    color: rgb(41, 32, 30);
+}
+iframe{
+    width: 22%;
+    height: auto;
+    margin: 10px;
+}
+input{
+    margin-bottom: 20px;
+}
+.enlace{
+    background-color: maroon;
+    width: 20%;
+    border-radius: 10%;
+    padding: 2%;
+    margin: 1%;
+    color: mintcream;
+    text-align: center;
+    text-decoration: none;
+}
+form{
+    background-color: rgb(185, 185, 185);
+    padding: 3% 5%;
+    margin: 0% 3%;
+    border-radius: 3%;
+    border: solid black;
+}
+form .boton{
+    width: 20%;
+    padding: 2%;
+    background-color: rgb(97, 30, 25);
+    border: rgb(63, 30, 7) solid 1%;
+    color: snow;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 600px){
+    header nav a{
+        font-size: 0.8em;
+    }
+    h1{ 
+        font-size: 2.4em
+    }
+    h2{ 
+        font-size: 1.6em;
+        margin: 3% 5%;
+    }
+    .caja1{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+    }
+    .caja1 img{
+        width: 90%;
+        margin: 5% auto;
+    }
+    .caja1 p{
+        width: 90%;
+        font-size: 1em;
+    }
+    .caja2{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 5% 0%;
+    }
+    .caja2_a, .caja2_b{ width: 100%;}
+    .caja2 .caja2_a table{
+        border-collapse: collapse;
+        width: 70%;
+    }
+    .subtitulo{
+        margin: 5% 0%;
+        font-size: 1em;
+        text-align: start;
+    }
+}
+@media screen and (max-width: 400px){
+    header nav {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+    header nav a{
+        border: solid 2%;
+        width: 96%;
+    }
+    h1{
+        text-align: center;
+        font-size: 2em;
+    }
+    h2{ font-size: 1.3em;}
+    .caja2{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
+        margin: 5% 0%;
+    }
+    .caja2_a, .caja2_b{
+        width: 80%;
+    }
+    .caja2 .caja2_a table{
+        border-collapse: collapse;   
+    }
+    main div p{
+        font-size: 0.9em;
+    }
+    main div.mapas{
+        display: none;
+    }
+}
